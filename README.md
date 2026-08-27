@@ -37,11 +37,13 @@ Primary: official, keyless OpenAPI endpoints from TWSE (證交所) and TPEx (櫃
 ```
 tw-stock-analyzer/
 ├── SKILL.md                       — trigger conditions & step-by-step workflow / 觸發條件與工作流程
+├── tw-stock-analyzer.skill        — 安裝skill包
 ├── references/
 │   ├── data-sources.md            — API endpoints, date formats, fallbacks / API端點、日期格式、備援機制
 │   └── report-template.md         — HTML report structure & chart implementation / 報告結構與圖表實作方式
 └── evals/
     └── evals.json                 — test cases / 測試案例
+    └── (測試結果輸出)             — 測試結果輸出檔案
 ```
  
 ---

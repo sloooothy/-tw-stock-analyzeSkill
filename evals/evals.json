@@ -1,0 +1,23 @@
+{
+  "skill_name": "tw-stock-analyzer",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "1815 a123 8324 2536",
+      "expected_output": "One HTML report + CSV for 1815 (富喬), with 4 charts (institutional trading, price, monthly revenue, quarterly revenue), material announcements, recent news, and a non-prescriptive summary. a123, 8324, 2536 reported as failed/invalid codes with reasons.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "prompt": "幫我看一下2330台積電今年的財報，值得買嗎？",
+      "expected_output": "One HTML report + CSV for 2330. Answer to 'values得買嗎' should point to the report's factor list rather than giving a buy/sell recommendation.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "prompt": "9955 這家公司今年才上市沒多久，幫我抓資料分析",
+      "expected_output": "Report correctly handles a company with a short trading history within the year, noting the shortened period rather than treating missing early-year data as an error.",
+      "files": []
+    }
+  ]
+}
